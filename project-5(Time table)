@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border cellpadding="16px">
+    <thead>
+        <tr>
+            <th colspan="9">Time Table</th>
+        </tr>
+        <th> Day/Lec</th>
+        <th> 1 <br> 9:00-10:00</th>
+        <th> 2 <br> 10:00-11:00</th>
+        <th> 3 <br> 11:00-12:00</th>
+        <th rowspan="6"> Lunch Time <br> 1:00-2:00</th>
+        <th> 4 <br> 12:00-1:00</th>
+        <th> 5 <br> 1:00-2:00</th>
+        <th> 6 <br> 2:00-3:00</th>
+
+
+    </thead>
+    <tbody>
+        <tr>
+        <td>Monday</td>
+        <td>HTML</td>
+        <td>Javascript</td>
+        <td>Python</td>
+        <td rowspan="5"><b>Lunch Time</b></td>
+        <td>Reactjs</td>
+        <td>Django</td>
+        <td>RDBMS</td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>Python</td>
+        <td>Javascript</td>
+        <td>Reactjs</td>
+        <td>RDBMS</td>
+        <td>HTML</td>
+        <td>Django</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>Javascript</td>
+        <td>Python</td>
+        <td>Django</td>
+        <td>Reactjs</td>
+        <td>RDBMS</td>
+        <td>HTML</td>
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>RDBMS</td>
+        <td>Reactjs</td>
+        <td>Python</td>
+        <td>Django</td>
+        <td>HTML</td>
+        <td>javascript</td>
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td>Reactjs</td>
+        <td>RDBMS</td>
+        <td>Python</td>
+        <td>Django</td>
+        <td>Reactjs</td>
+        <td>HTML</td>
+    </tr>
+    <tr>
+        <td>Saturday</td>
+        <td>Django</td>
+        <td>Javascript</td>
+        <td>Python</td>
+        <td colspan="4">No lecture</td>
+
+    </tr>
+    </tbody>
+   </table> 
+</body>
+</html>
